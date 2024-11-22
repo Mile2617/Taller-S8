@@ -6,3 +6,4 @@ int buscarProductoPorNombre(const char nombreBuscado[], int NumProd, char Nombre
 void editarProducto(int NumProd, char NombresP[][50], float Costos[], float Tiempos[], int Demandas[]);
 void eliminarProducto(int *NumProd, char NombresP[][50], float Costos[], float Tiempos[], int Demandas[]);
 void calcularProduccion(int NumProd, float presupuesto, float Tdisponible, char NombresP[][50], float Costos[], float Tiempos[], int Demandas[]);
+

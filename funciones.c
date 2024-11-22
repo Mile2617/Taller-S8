@@ -112,6 +112,7 @@ void eliminarProducto(int *NumProd, char NombresP[][50], float Costos[], float T
         Tiempos[i] = Tiempos[i + 1];
         Demandas[i] = Demandas[i + 1];
     }
+    
     (*NumProd)--;
     printf("\nProducto eliminado exitosamente.\n");
 }

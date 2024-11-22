@@ -2,6 +2,7 @@
 #include <string.h>
 #include "funciones.h"
 
+
 #define MaxProd 5 
 
 int main() {
